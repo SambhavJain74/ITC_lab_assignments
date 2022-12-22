@@ -1,0 +1,11 @@
+a=56
+b=10
+print("a.",a&b)
+print("b.",a|b)
+print("c.",a^b)
+a=a<<2
+b=b<<2
+print("d.",a,b)
+a=a>>2
+b=b>>4
+print("e.",a,b)
