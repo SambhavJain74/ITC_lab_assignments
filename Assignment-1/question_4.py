@@ -1,0 +1,1 @@
+print(str(int(25)+int('25')+int(25.0)))
