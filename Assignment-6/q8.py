@@ -18,6 +18,7 @@ class Sum0:
                         if i+j+k==0:
                             list2.append([i,j,k])
             list3=list(set(tuple(sorted(sub)) for sub in list2))
+            list3.remove((0,0,0))
             '''list3=[]
             for i in range(len(list2)):
                 if list2[i] not in list3:
